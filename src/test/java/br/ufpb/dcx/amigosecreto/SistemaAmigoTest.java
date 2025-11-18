@@ -97,6 +97,7 @@ public class SistemaAmigoTest {
         } catch (AmigoInexistenteException | AmigoJaExisteException | AmigoNaoSorteadoException e) {
             fail("Não deveria lançar exceção");
         }
+        //TEST
     }
 
 
