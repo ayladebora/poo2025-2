@@ -3,7 +3,7 @@ package br.ufpb.dcx.ayla.pessoas;
 public class TestaPessoas {
 
     public static void main(String [] args){
-        Pessoa p1 = new Pessoa("Maria", 3   2);
+        Pessoa p1 = new Pessoa("Maria", 32);
         Pessoa p2 = new Pessoa("José", 22);
         if (p1.compareTo(p2)<0){
             System.out.println("Maria vem antes");
