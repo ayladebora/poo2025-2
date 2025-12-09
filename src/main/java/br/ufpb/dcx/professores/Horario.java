@@ -1,6 +1,7 @@
 package br.ufpb.dcx.professores;
 
-public class Horario {
+import java.io.Serializable;
+public class Horario implements Serializable {
     private int horaInicio;
     private int horaFim;
     private DiaDaSemana dia;

@@ -1,8 +1,9 @@
 package br.ufpb.dcx.professores;
 
+import java.io.Serializable;
 import java.util.List;
 
-public class Disciplina {
+public class Disciplina implements Serializable {
     private String nome;
     private int codigo;
     private int matriculaProf;
